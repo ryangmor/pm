@@ -43,7 +43,7 @@ local action = function(msg)
 		return -- End if the sender is blacklisted.
 	end
 
-	    sendMessage(msg.from.id, '*pm sent*\n*Arman Bot Service Msg\n*Your Pm??\n\n'..input, true, false, true) -- You Can ReplaceArman Bot Service Msg
+	    sendMessage(msg.from.id, '*pm sent*\n*CactusTeam Pm Sender For Reported Guys\n*Your Pm??\n\n'..input, true, false, true) -- You Can ReplaceArman Bot Service Msg
 	end
 	
 	if string.match(msg.text, '^/u') then
